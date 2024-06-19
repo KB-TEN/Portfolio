@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio SBK</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="menu">
+        <button id="close-menu">&times;</button>
+        <nav>
+            <ul>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#Qualifications">Qualifications</a></li>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#Hobbies">Hobbies</a></li>
+                <li><a href="#Technologies">Technologies</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
+            </ul>
+        </nav>
+    </section>
+    <header>
+        <nav class="default-nav">
+            <a href="#about-me">About Me</a><a href="#Qualifications">Qualifications</a><a href="#Education">Education</a><a href="#Hobbies">Hobbies</a><a href="#Technologies">Technologies</a><a href="#contact-me">Contact Me</a>
+        </nav>
+        <nav class="mobile-nav">
+            <button id="menu-button">Menu</button>
+        </nav>
+    </header>
+    <main class="container">
+        <article class="intro">
+            <img id="profile_image" src="WhatsApp Image 2024-05-14 at 23.12.03_a0f7f036.jpg" alt="Portfolio Image - SBK">
+            <h1>Hi, I'm Bryant</h1>
+            <p>I am <span id="dynamic-text" class="dynamic-text-color"></span></p>
+            <p class="social-links">
+                <a href="bryantkehbuma@gmail.com" target="_blank">
+                        <img height="30" width="30" src="https://www.iconpacks.net/icons/1/free-icon-mail-142.png" alt=""></a>
+                <a href="https://wa.me/qr/RA7HIPGQQ3O7D1" target="_blank">
+                        <img height="30" width="30" src="https://www.iconpacks.net/icons/2/free-icon-whatsapp-logo-4454.png" alt=""></a> 
+                <a href="https://www.instagram.com/bryantkehbuma?igsh=bjFsdTdmbDR0M2g2" target="_blank">
+                        <img height="30" width="30" src="https://www.iconpacks.net/icons/3/free-icon-instagram-logo-8869.png" alt=""></a> 
+                <a href="https://www.facebook.com/sama.bryant.1?mibextid=ZbWKwL" target="_blank">
+                        <img height="30" width="30" src="https://www.iconpacks.net/icons/2/free-icon-facebook-2869.png" alt=""></a>
+                <a href="https://www.tiktok.com/@samabryant?_t=8mLyLOnZ5a2&_r=1" target="_blank">
+                        <img height="30" width="30" src="https://www.iconpacks.net/icons/2/free-icon-tiktok-logo-4501.png" alt=""></a>
+                <a href="https://x.com/bryant_sama?t=7-bwnm-u2RQ7ogxcFEp0Gw&s=09" target="_blank">
+                        <img height="30" width="30" src="https://www.iconpacks.net/icons/free-icons-6/free-icon-twitter-x-logo-black-round-20851.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/sama-bryant-kehbuma-22a876269?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                        <img height="30" width="30" src="https://www.iconpacks.net/icons/2/free-icon-linkedin-logo-2430.png" alt=""> </a> 
+            </p>
+        </article>
+        <section id="about-me">
+            <h2>About Me</h2>
+         
+            <p>My name is <em>Sama Bryant Kehbuma</em> and I am 24years old</p>
+            <p>Born in <strong>Limbe</strong> </p>
+        </section>
+        <section id="Qualifications">
+            <h2>Qualifications</h2>
+            <ol>
+                <li>FSLC</li>
+                <LI>GCE Ordinary Level Certificate</LI>
+                <li>GCE Advanced Level Certificate</li>
+                <li>Masters In Architecture (Pending)</li>
+            </ol>
+        </section>
+        <section id="Education">
+            <h2>Education</h2>
+            <ul>
+                <li>Nursery Education: PYC Limbe</li>
+                <li>Primary Education: CSMPS Limbe</li>
+                <li>Secondary Education: GHS Limbe</li>
+                <li>Higher Education: ENSTP Yaounde</li>
+            </ul>
+        </section>
+        <section id="Hobbies">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Playing football, handball and volleyball</li>
+                <li>Drawing</li>
+                <li>Video games</li>
+            </ul>
+        </section>
+        <section id="Technologies">
+            <h2>Technologies</h2>
+            <table>
+                <tr>
+                    <th>Frontend</th>
+                    <th>Backend</th>
+                    <th>Database</th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <TD>NodeJS</TD>
+                    <td>MySQL</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Rails</td>
+                    <td>Mongo DB</td>
+                </tr>
+                <tr>
+                    <td>JS</td>
+                    <td>Asp.NET</td>
+                    <td>Postgres</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <section id="contact-me">
+        <form name="contact" id="contact" method="post" data-netlify="true">
+            <h1>Contact Me</h1>
+            <section>
+                <label for="firstName">First Name</label>
+                <input type="text" name="firstName" id="firstName" required />
+            </section>
+            <section>
+                <label for="lastName">Last Name</label>
+                <input type="text" name="lastName" id="lastName" required />
+            </section>
+            <section>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>           
+             </section>
+            <button type="submit">Send</button>
+     </form>
+    </section>
+    <footer>
+        Made by KB🖤 ©2024
+    </footer>
+    <script src="main.js"></script>
+    <script src="menu.js"></script>
+</body>
+</html>
